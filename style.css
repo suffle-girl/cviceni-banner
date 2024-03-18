@@ -33,3 +33,13 @@ Nastavte CSS pro třídu .banner tak, aby:
 - ve výchozím stavu (=na mobilu) bude banner skrytý
 - na obrazovce širší než 800px se banner zobrazí
 */
+
+.banner {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .banner {
+    display: block;
+  }
+}
